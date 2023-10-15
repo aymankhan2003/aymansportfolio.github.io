@@ -209,17 +209,15 @@ section {
     text-align: center;
 }
 
+.title:hover {
+    animation: showcontent 1s ease-in-out 0.3s 1 forwards
+}
+
 .sub-title {
     color: rgb(53, 53, 53);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
-}
-
-.experience-details-container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .article-container {
@@ -291,7 +289,46 @@ article .icon {
     gap: 1rem;
 }
 
+.btn-container-pr {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-direction: column;
+}
+
 /* EXPERIENCE SECTION */
 #experience {
     position: relative;
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.experience-desc {
+    text-align: left;
+    font-size: small;
+    display: flex; /* Add this property */
+    flex-direction: column; /* Display paragraphs in a column */
+}
+
+.article-container-experience {
+    display: flex;
+    flex-wrap: wrap; /* Allow articles to wrap to the next row */
+    gap: 2.5rem;
+    justify-content: space-evenly;
+}
+
+.article-exp {
+    flex: 1; /* Allow articles to grow and fill the available space */
+    min-width: 300px; /* Adjust the minimum width as needed */
+}
+
+.job-title {
+    color: rgb(53, 53, 53);
+    font-weight: 600;
+    font-size: 1.20rem;
+    margin-bottom: 2rem;
 }

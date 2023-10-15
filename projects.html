@@ -11,11 +11,11 @@
         <div class="logo">Ayman's Portfolio</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a id="experience" href="experience.html">Experience</a></li>
-                <li><a id="projects" href="projects.html">Projects</a></li>
-                <li><a id="aboutme" href="aboutme.html">AboutMe</a></li>
-                <li><a id="contact" href="contact.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="aboutme.html">AboutMe</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -28,11 +28,68 @@
             <span></span>
         </div>
         <div class="menu-links">
-            <li><a href="#home" onclick="toggleMenu()">About</a></li>
-            <li><a id="experience" href="experience.html" onclick="toggleMenu()">Experience</a></li>
-            <li><a id="projects" href="projects.html" onclick="toggleMenu()">Projects</a></li>
-            <li><a id="aboutme" href="aboutme.html" onclick="toggleMenu()">AboutMe</a></li>
-            <li><a id="contact" href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            <li><a href="index.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="experience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="aboutme.html" onclick="toggleMenu()">AboutMe</a></li>
+            <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
+
+    <section id="projects">
+        <div class="section_text">
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="sub-title">Market Value Predictor</h2>
+                    <div class="article-container-experience">
+                        <article class="article-exp">
+                            <div class = "experience-desc">
+                                <p>This project was a group effort from me and my friends. This predictor model predicts a soccer players market value and transfer fee based on their recent statistics. 
+                                    We created this for a class final project and combined our interests for soccer with the lessons we took in from Machine Learning. We web scraped data, manipulated it, feature engineered it, 
+                                    and tested and trained it for implementing our final model. Our project information is written more on a blog post that we created which can be accessed through the button below. 
+                                    Our project also has a github repositary that includes all our UI, Machine Learning model, and R files. This project helped me personally grow in the field of data anlysis, machine larning and
+                                    software development, while also improving my skills in working with a team on a complex project. I worked with R, Python, Javascript, HTML and some CSS in order to make a successful project. 
+                                </p>
+                            </div>
+                        </article>
+                        <div class="btn-container-pr">
+                            <button class="btn btn-color-2" onclick="window.open('//aymankhan2003.github.io/posts/project/ProjectBlogPost.html')">
+                            Project Link</button>
+                            <button class="btn btn-color-2" onclick="window.open('//github.com/aymankhan2003/Market-Value-Predictor')">
+                            GitHub Repositary</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="sub-title">Shiny App Dashboard</h2>
+                    <div class="article-container-experience">
+                        <article class="article-exp">
+                            <div class = "experience-desc">
+                                <p>This project was also a group effort from me and my class peers. We created a Shiny dashboard that displays
+                                    graphs and visualizations made using R. We took in global conflict data and manipulated it to show relational 
+                                    comparisons between Intra-state conflicts and demographics. This project helped me improve my data anlysis skills
+                                    a lot as I worked a lot with cleaning, merging and analysing data sets. I also improved my skills of creating 
+                                    visualizations that are relevant to a specific task, and later display it through a public dashboard. I have a
+                                    github repositary for this project where the main R code file of this project exists. The R code file is where we performed all our
+                                    data manipulations and analysis and created the final shiny app.
+                                </p>
+                            </div>
+                        </article>
+                        <div class="btn-container-pr">
+                            <button class="btn btn-color-2" onclick="window.open('//aymankhanportfolio.shinyapps.io/DemographicRelationsApp/')">
+                            Project Link</button>
+                            <button class="btn btn-color-2" onclick="window.open('//github.com/aymankhan2003/ConflictVDemographics')">
+                            GitHub Repositary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
