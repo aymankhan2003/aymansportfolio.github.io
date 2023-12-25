@@ -313,7 +313,7 @@ article .icon {
     display: flex;
     justify-content: center;
     gap: 3rem;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 /* EXPERIENCE SECTION */
