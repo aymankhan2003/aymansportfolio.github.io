@@ -186,6 +186,15 @@ section {
     text-align: center;
 }
 
+.section_text_contact {
+    align-self: center;
+    text-align: center;
+}
+
+.contact-title {
+    margin-bottom: 50px;
+}
+
 .section_text p {
     font-weight: 600;
 }
@@ -276,13 +285,38 @@ article .icon {
 }
 
 .btn-color-1:hover,
-.btn-color-2:hover{
+.btn-color-2:hover,
+.btn-color-3:hover,
+.btn-color-4:hover,
+.btn-color-5:hover{
     cursor: pointer;
 }
 
 .btn-color-1{
     background: red;
 }
+
+.btn-color-3,
+.btn-color-4,
+.btn-color-5{
+    background: red;
+}
+
+.btn-color-3:hover {
+    background: black;
+    color: white;
+}
+
+.btn-color-4:hover {
+    background: blue;
+    color: white;
+}
+
+.btn-color-5:hover {
+    background: pink;
+    color: white;
+}
+
 .btn-color-2:hover{
     background: rgb(53, 53, 53);
     color: white;
@@ -314,6 +348,19 @@ article .icon {
     justify-content: center;
     gap: 3rem;
     flex-direction: row;
+}
+
+.btn-container-pr-contact {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.send-email{
+    display:flex;
+    justify-content: center;
 }
 
 /* EXPERIENCE SECTION */
