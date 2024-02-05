@@ -399,3 +399,17 @@ article .icon {
     font-size: 1.20rem;
     margin-bottom: 2rem;
 }
+
+/*About Section*/
+.aboutme-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutsection-container {
+    display: flex;
+    gap: 4rem;
+    height: 80%;
+    justify-content: center;
+}
