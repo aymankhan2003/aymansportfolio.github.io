@@ -329,6 +329,8 @@ article .icon {
 
 .btn-color-2 {
     background: red;
+    width: 8rem;
+    height: 6rem;
 }
 
 .btn-color-1:hover {
