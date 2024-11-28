@@ -203,10 +203,14 @@ section {
     text-align: center;
 }
 
+
 .about-containers {
-    gap: 2rem; 
+    gap: 3rem; 
     margin-bottom: 2rem;
     margin-top: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0;
  }
 
  .about-details-container{
@@ -225,6 +229,7 @@ section {
 
 .details-container {
     padding: 1.5rem;
+    scroll-snap-align: start;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -232,6 +237,11 @@ section {
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
+
+.about-containers::-webkit-scrollbar {
+    display: none;
+}
+
 
 .title {
     font-size: 3rem;
@@ -363,6 +373,17 @@ article .icon {
 .send-email{
     display:flex;
     justify-content: center;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column; /* Arrange containers vertically */
+    overflow-y: auto; /* Enable vertical scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+    scroll-snap-type: y mandatory; /* Enable snap-to-container */
+    height: 80vh; /* Set a fixed height to the scrollable area */
+    gap: 2rem; /* Space between containers */
+    padding: 1rem;
 }
 
 /* EXPERIENCE SECTION */
